@@ -3,9 +3,8 @@ def roll_call_dwarves
 end
 
 def summon_captain_planet
-  array.capitlize { |planeteer| print "#Planeteer!"}
   array.map {|name| name.capitalize }
- array.map {|name| print #{name.capitlize}!} 
+ array.map {|name| print #{name.capitalize}!} 
 end
 
 def long_planeteer_calls
@@ -17,4 +16,8 @@ end
 
 def find_the_cheese
   cheese_types = ["cheddar", "gouda", "camembert"]
+  if array.include? {|name| cheese_types}
+    puts array.cheese_types 
+  else 
+    puts nil 
 end
