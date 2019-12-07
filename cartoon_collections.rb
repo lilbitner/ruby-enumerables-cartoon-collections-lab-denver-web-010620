@@ -3,7 +3,7 @@ def roll_call_dwarves
  dwarves.each { |dwarve| print darf + "\n"} 
 end
 
-def summon_captain_planet# code an argument here
+def summon_captain_planet
   # Your code here
 end
 
