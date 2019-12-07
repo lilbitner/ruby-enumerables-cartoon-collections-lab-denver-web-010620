@@ -1,11 +1,11 @@
 def roll_call_dwarves
- dwarves = ["Doc", "Dopey", "Bashful", "Grumpy"] do 
+ dwarves = ["Doc", "Dopey", "Bashful", "Grumpy"]  
  dwarves.each { |dwarve| print darf + "\n"} 
 end
 
 def summon_captain_planet
   planeteer_calls = ["earth", "wind", "fire", "water", "heart"] do
-  planeteer_calls.capitlize { |planeteer| 
+  planeteer_calls.capitlize { |planeteer| "#Planeteer!"}
 end
 
 def long_planeteer_calls# code an argument here
