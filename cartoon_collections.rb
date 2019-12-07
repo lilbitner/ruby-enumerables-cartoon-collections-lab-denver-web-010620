@@ -4,7 +4,8 @@ def roll_call_dwarves
 end
 
 def summon_captain_planet
-  # Your code here
+  planeteer_calls = ["earth", "wind", "fire", "water", "heart"] do
+  planeteer_calls.capitlize { |planeteer| 
 end
 
 def long_planeteer_calls# code an argument here
