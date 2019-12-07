@@ -1,5 +1,5 @@
 def roll_call_dwarves
- dwarves.each { |dwarve| print darf + "\n"} 
+ dwarves.collect { |dwarve| print darf + "\n"} 
 end
 
 def summon_captain_planet
@@ -9,10 +9,12 @@ def summon_captain_planet
 end
 
 def long_planeteer_calls
- 
+  if planeteer_calls.include? {|name| > 4.characters} 
+    puts true 
+  else 
+    puts false 
 end
 
-def find_the_cheese# code an argument here
-  # the array below is here to help
+def find_the_cheese
   cheese_types = ["cheddar", "gouda", "camembert"]
 end
