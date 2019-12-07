@@ -3,13 +3,13 @@ def roll_call_dwarves
 end
 
 def summon_captain_planet
-  planeteer_calls.capitlize { |planeteer| print "#Planeteer!"}
-  planeteer_calls.map {|name| name.capitalize }
-  planeteer_calls.map {|name| print #{name.capitlize}!} 
+  array.capitlize { |planeteer| print "#Planeteer!"}
+  array.map {|name| name.capitalize }
+ array.map {|name| print #{name.capitlize}!} 
 end
 
 def long_planeteer_calls
-  if planeteer_calls.include? {|name| > 4.characters} 
+  if calls_long.include? {|name| > 4.characters} 
     puts true 
   else 
     puts false 
